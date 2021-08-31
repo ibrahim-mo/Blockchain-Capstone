@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "proxies",
+				"outputs": [
+					{
+						"internalType": "contract OwnableDelegateProxy",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"eth-contracts/contracts/ERC721Mintable.sol": "ProxyRegistry"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/GSN/Context.sol": {
+			"keccak256": "0x90a3995645af7562d84b9d69363ffa5ae7217714ab61e951bf7bc450f40e4061",
+			"urls": [
+				"bzz-raw://216ef9d6b614db4eb46970b4e84903f2534a45572dd30a79f0041f1a5830f436",
+				"dweb:/ipfs/QmNPrJ4MWKUAWzKXpUqeyKRUfosaoANZAqXgvepdrCwZAG"
+			]
+		},
+		"@openzeppelin/contracts/drafts/Counters.sol": {
+			"keccak256": "0x5be8533c5950173dc2b77b75108fae6e6c5449aedadde3385ba457394aad2384",
+			"urls": [
+				"bzz-raw://d429fb04f5b31d909dc759d0f88e28055b80b4dd43e5def4dffc947fa0609229",
+				"dweb:/ipfs/QmaY9idX5CwLLtjjTQAdiiaDSrncgafkatUZXTbbajpz8b"
+			]
+		},
+		"@openzeppelin/contracts/math/SafeMath.sol": {
+			"keccak256": "0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076",
+			"urls": [
+				"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f",
+				"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+			"keccak256": "0x042048c375daca04b31e31c91bbae912b84b5eb818c4e31b2deb530fd2305342",
+			"urls": [
+				"bzz-raw://d877a87c5e29b9ffca3e334378058c051a4e012fd3635039681003a9376baf1f",
+				"dweb:/ipfs/QmR45snf93cFXtB71TZcmoGy9DbcMha8CqgkDKaLvhjXZK"
+			]
+		},
+		"@openzeppelin/contracts/utils/Address.sol": {
+			"keccak256": "0x1a8e5072509c5ea7365eb1d48030b9be865140c8fb779968da0a459a0e174a11",
+			"urls": [
+				"bzz-raw://03335b7b07c7c8c8d613cfdd8ec39a0b5ec133ee510bf2fe6cc5a496767bef4b",
+				"dweb:/ipfs/Qmebp4nzPja645c9yXSdJkGq96oU3am3LUnG2K3R7XxyKf"
+			]
+		},
+		"eth-contracts/contracts/ERC721Mintable.sol": {
+			"keccak256": "0x6638b64bb8f78e10016892fc61a4815510f4b8b748ebd817a53779d62358d10c",
+			"urls": [
+				"bzz-raw://a4179d23e1ca3356a126cb149cbb2ca67f3123b95779701d7d31b303899b7a72",
+				"dweb:/ipfs/QmcrpjLVorp8gEiewLsBYjhKQDXwbpKbks2txGJG8uLQkM"
+			]
+		},
+		"eth-contracts/contracts/Oraclize.sol": {
+			"keccak256": "0xb90b53b44e6ca088ca50435b31eb35edc115cee7b939a8afff62980bbf06e0ee",
+			"urls": [
+				"bzz-raw://365b207ad0c54bcb6b21c0121363994be3b69501391ee388bb7f1cc77f640bf8",
+				"dweb:/ipfs/QmRkGd1ZBMkwC13Um5jb6brnah1BGCXJdcnmXt7Zcp9s4s"
+			]
+		},
+		"eth-contracts/contracts/common/meta-transactions/ContentMixin.sol": {
+			"keccak256": "0xb038fb136b28864a59f28a70580d0665774567791257652c388d6af001c8eddb",
+			"urls": [
+				"bzz-raw://09c0af8c66a0237d26184685d1080e5511446193f4f1c3c8e6a822ca345b443e",
+				"dweb:/ipfs/QmRX9jf5PqWMULpPRicH5x2wZLy5JqzYW36qkUzatYvafq"
+			]
+		},
+		"eth-contracts/contracts/common/meta-transactions/EIP712Base.sol": {
+			"keccak256": "0xf4a24e54b2c1ac27eaecc7569ca1a6dbb2f2f6b1272a2efbff34444cf1e29a36",
+			"urls": [
+				"bzz-raw://f559cbbf6e7dbb372e94cc27513ea9c2e06c3fcae935e0dfd21b5365a52b2b52",
+				"dweb:/ipfs/QmQg4W9Ga5vMcp53UbEKGqaWHKhQtFG5NBe4rUDbSQjsxp"
+			]
+		},
+		"eth-contracts/contracts/common/meta-transactions/Initializable.sol": {
+			"keccak256": "0xbb0b7dbe885bc103a7f33f4bf15870e405bc539780e13882beaecfa7f29cd126",
+			"urls": [
+				"bzz-raw://8ea06a8e12c34cb56c7f3e9e3b57707dd779e85147c0546dc618f6f8ade57c5c",
+				"dweb:/ipfs/QmNejjsYG7DgM6fPc7PDcU5KSgxbvxK4TX4TbZeyVCHsHN"
+			]
+		},
+		"eth-contracts/contracts/common/meta-transactions/NativeMetaTransaction.sol": {
+			"keccak256": "0xb913e38b28159a7434f33c5296c799fa6e0ce754fc0522caabb94c2286ef790c",
+			"urls": [
+				"bzz-raw://2d5681db6e0c997f98767b76e91745958da7f4108317f1dd0b8e86f729f4b57f",
+				"dweb:/ipfs/QmZgQaug1ENgMh7CBTzazxKjhhbTrF21qMUkXiFq7kjoDR"
+			]
+		}
+	},
+	"version": 1
+}
